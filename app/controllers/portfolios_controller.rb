@@ -15,7 +15,7 @@ class PortfoliosController < ApplicationController
       if @portfolio_item.save
         format.html { redirect_to @portfolio_item, notice: "Your portfolio item is now live."}
       else
-        format.html {render :new}
+        format.html { render :new }
       end
     end
   end
@@ -23,7 +23,17 @@ class PortfoliosController < ApplicationController
   def show
   end
 
+  def edit
+  end
+
   def update
+    respond_to do |format|
+      if @portfolio_item.update(portfolio_item_params)
+        format.html { redirect_to @portfolio_item, notice: "Your portfolio item was successfully updated." }
+      else
+        format.html { render :edit }
+      end
+    end
   end
 
   def destroy
