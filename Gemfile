@@ -50,3 +50,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #Slug for friendly routes
 gem 'friendly_id', '~> 5.1.0'
+gem 'devise', '~> 4.4'
