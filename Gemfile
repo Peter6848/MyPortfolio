@@ -19,7 +19,7 @@ gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
-# Use CoffeeScript for .coffee assets and views
+
 
 gem 'coffee-rails', '~> 4.2'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -52,3 +52,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #Slug for friendly routes
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.4'
+
+gem 'bootstrap', '~> 4.0.0'
+gem 'jquery-rails'
