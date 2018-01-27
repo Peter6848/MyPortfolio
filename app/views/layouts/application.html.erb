@@ -8,7 +8,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
-    
+
   </head>
 
   <body>
@@ -20,6 +20,8 @@
     <%= login_helper %>
 
     <%= yield %>
+
+    <%= copyright_generator %>
 
     <%= source_helper("application") %>
   </body>
