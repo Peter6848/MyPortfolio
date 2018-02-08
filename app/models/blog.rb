@@ -5,7 +5,7 @@ class Blog < ApplicationRecord
 
   validates :title, :body, presence: true
 
-  belongs_to :topic
+  # belongs_to :topic
 
   def self.special_blogs
     all
