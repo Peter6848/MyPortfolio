@@ -1,6 +1,11 @@
 <%= form_with(model: @portfolio_item, local: true) do |f| %>
   <div class="row">
     <div class="col-md-6">
+      <% if @portfolio_item.errors.any? %>
+        <%= @portfolio_item.errors.full_messages.each do |error| %>
+          <%= alert_generator(error) %>
+        <% end %>
+      <% end %>
       <div class="form-group">
         <%= f.label :title %>
         <%= f.text_field :title, id: :portfolio_title, class: 'form-control' %>
@@ -24,14 +29,12 @@
       </div>
     </div>
 
-
     <div class="col-md-6">
       <div class="form-group">
         <%= f.label :body %>
         <%= f.text_area :body, id: :portfolio_body, class: 'form-control', rows: 12 %>
       </div>
     </div>
-
 
   <hr>
 
