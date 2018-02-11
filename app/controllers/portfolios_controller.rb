@@ -36,7 +36,6 @@ class PortfoliosController < ApplicationController
   end
 
   def show
-    p '$' * 100
   end
 
   def edit
