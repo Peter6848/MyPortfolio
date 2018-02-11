@@ -21,6 +21,7 @@
 
       <%= render 'shared/blog_masthead' %>
       <%= render 'shared/blog_nav' %>
+
       <div class="row">
 
         <%= yield %>
@@ -30,6 +31,8 @@
       </div>
 
       <%= render 'shared/blog_footer' %>
+
+      <%= alerts %>
 
       <%= source_helper("blog") %>
     </div>
