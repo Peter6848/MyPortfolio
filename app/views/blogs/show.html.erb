@@ -7,8 +7,9 @@
     <%= @blog.body %>
   </p>
 
-<%= render 'comments/comment_form' %>
+  <%= render 'comments/comment_form' %>
 
-  <%= render @blog.comments %>
-
+  <div class="#comments" data-blog-id=<%= @blog. %>>
+    <%= render @blog.comments %>
+  </div>
 </div>
