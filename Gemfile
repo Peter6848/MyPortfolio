@@ -68,3 +68,5 @@ gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
 gem 'cocoon', '~> 1.2', '>= 1.2.11'
 gem 'gritter', git: 'https://github.com/jordanhudgens/gritter'
 gem 'redis', '~> 3.3', '>= 3.3.3'
+
+ruby "2.3.3"
