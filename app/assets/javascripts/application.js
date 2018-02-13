@@ -13,6 +13,7 @@
 //= require rails-ujs
 
 //= require jquery3
+//= require popper
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require jquery-ui
@@ -21,5 +22,4 @@
 //= require gritter
 //= require cable
 //= require turbolinks
-//= require popper
 //= require_tree .
