@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'react-items', to: 'portfolios#react'
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'events', to: 'pages#events'
 
   resources :blogs do
     member do
