@@ -35,6 +35,10 @@ module ApplicationHelper
         title: 'Contact'
       },
       {
+        url: events_path,
+        title: 'Events'
+      },
+      {
         url: blogs_path,
         title: 'Blog'
       },
