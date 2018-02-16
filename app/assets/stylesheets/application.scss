@@ -221,5 +221,32 @@ body {
 }
 
 .google-maps {
-  
+
+}
+
+.event-logo {
+  height: 200px;
+  width: 100%;
+}
+
+.event-item {
+  max-width: 320px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.event-text {
+  color: grey;
+}
+
+.masthead {
+  z-index: 100;
+}
+
+.event-title {
+  color: white;
+}
+
+.event-page {
+  margin-top: 80px;
 }
