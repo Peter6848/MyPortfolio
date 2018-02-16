@@ -5,7 +5,7 @@ $(document).ready(function(){
 
 var eventbriteAPI = function(){
 
-  const api = "https://www.eventbriteapi.com/v3/events/search/?token=VPI2P2UJ4YNNNYI4FLGI&location.latitude=36.974117&location.longitude=-122.030792&location.within=25mi&categories=102&subcategories=2003,2004,2005,2006,2007";
+  let api = "https://www.eventbriteapi.com/v3/events/search/?token=VPI2P2UJ4YNNNYI4FLGI&location.latitude=36.974117&location.longitude=-122.030792&location.within=25mi&categories=102&subcategories=2003,2004,2005,2006,2007";
   let eventName
   let eventDescription
   let eventURL
