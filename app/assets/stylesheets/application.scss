@@ -216,6 +216,10 @@ body {
   color: white;
 }
 
+.mastfoot {
+  position: relative;
+}
+
 .about-me {
   border: 2px solid rgba(255,255,255,.5);
 }
@@ -257,4 +261,8 @@ body {
 
 .event-page {
   margin-top: 80px;
+}
+
+.events-conainer {
+  background-color: red;
 }
